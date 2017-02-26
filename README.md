@@ -1,5 +1,3 @@
-# searchmetrics-java-task
-
 ## HTTP Endpoints
 
 ### `/latestRate`
