@@ -6,7 +6,7 @@
 
 Returns the latest exchange rate by creation date
 
-### `/historyRates?startDate=2017-02-26T15:40:00&endDate=2017-02-26T22:19:29`
+### `/historyRates?startDate=yyyy-MM-dd'T'HH:mm:ss.SSSZ&endDate=yyyy-MM-dd'T'HH:mm:ss.SSSZ`
 
 Gets all exchange rates between the startDate and the endDate in JSON.
 
@@ -14,7 +14,7 @@ Both endpoints '/historyRates' and '/historyRateStream' do the nearly same thing
   
 Both parameters, startDate and endDate, are in the ISO DateTime Format yyyy-MM-dd'T'HH:mm:ss.SSSZ, e.g. "2000-10-31T01:30:00.000-05:00" although the milliseconds and timezone can be omitted and a valid request could be /historyRates?startDate=2017-02-26T15:40:00&endDate=2017-02-26T20:19:00
   
-### `/historyRateStream?startDate=2017-02-26T15:40:00&endDate=2017-02-26T22:19:29`
+### `/historyRateStream?startDate=yyyy-MM-dd'T'HH:mm:ss.SSSZ&endDate=yyyy-MM-dd'T'HH:mm:ss.SSSZ`
 
 Gets all exchange rates between the startDate and the endDate in JSON.
 	 
