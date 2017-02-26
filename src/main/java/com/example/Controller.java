@@ -1,4 +1,4 @@
-package com.searchmetrics;
+package com.example;
 
 import java.io.OutputStream;
 import java.time.LocalDateTime;
@@ -28,6 +28,9 @@ public class Controller {
 	@Autowired
 	private ExchangeRatesStreamer exchangeRatesStreamer;
 
+	/**
+	 * @return Returns the latest exchange rate by creation date
+	 */
 	@RequestMapping("/latestRate")
 	public String getLatestRate() {
 		ExchangeRateModel last = repository.findTopByOrderByCreatedDateDesc();

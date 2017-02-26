@@ -1,4 +1,4 @@
-package com.searchmetrics;
+package com.example;
 
 import java.time.LocalDateTime;
 import java.util.Map;
