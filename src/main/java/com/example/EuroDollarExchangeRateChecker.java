@@ -31,10 +31,10 @@ public class EuroDollarExchangeRateChecker {
 	/**
 	 * This method calls an external public service to retrieve the currency exchange rate euro -> dollar. It does so
 	 * regularly using Spring's scheduler. The period time is specified in the 'application.properties' in the property
-	 * 'searchmetrics.check-exchange-rate-period'. It maps the rate to a ExchangeRateModel and adds the creation date.
-	 * In the end it stores the model into the database.
+	 * 'check-exchange-rate-period'. It maps the rate to a ExchangeRateModel and adds the creation date. In the end it
+	 * stores the model into the database.
 	 */
-	@Scheduled(fixedRateString = "${searchmetrics.check-exchange-rate-period}")
+	@Scheduled(fixedRateString = "${check-exchange-rate-period}")
 	public void check() {
 		RestTemplate restTemplate = new RestTemplate();
 		ExchangeRateModel exchangeRateModel = restTemplate.getForObject(FIXER_IO_ENDPOINT_EUR_TO_USD,

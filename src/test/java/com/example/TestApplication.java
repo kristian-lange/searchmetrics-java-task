@@ -1,4 +1,4 @@
-package com.searchmetrics;
+package com.example;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

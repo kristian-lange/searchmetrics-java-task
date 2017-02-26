@@ -1,4 +1,4 @@
-package com.searchmetrics;
+package com.example;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
