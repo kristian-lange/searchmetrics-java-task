@@ -2,9 +2,9 @@
 
 ## HTTP Endpoints
 
-* /latestRate
-* /historyRates?startDate=2017-02-26T15:40:00&endDate=2017-02-26T22:19:29
-* /historyRateStream?startDate=2017-02-26T15:40:00&endDate=2017-02-26T22:19:29
+* `/latestRate`
+* `/historyRates?startDate=2017-02-26T15:40:00&endDate=2017-02-26T22:19:29`
+* `/historyRateStream?startDate=2017-02-26T15:40:00&endDate=2017-02-26T22:19:29`
 
 ## Run 
 
